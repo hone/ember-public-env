@@ -1,5 +1,5 @@
 {
-  "name": "heroku-env",
+  "name": "ember-public-env",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
@@ -41,6 +41,7 @@
     "ember-addon"
   ],
   "dependencies": {
+    "dotenv": "^1.2.0",
     "ember-cli-babel": "^5.1.3"
   },
   "ember-addon": {
